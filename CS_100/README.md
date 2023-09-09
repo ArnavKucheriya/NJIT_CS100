@@ -35,3 +35,6 @@ The list of topics to be covered includes the following:
 - Scope and Namespaces
 - Exceptions
 - Debugging and Testing 
+
+
+### Professor: Theodore Nicholson (Director of First Year Computer Science Education, Computer Science) ### 
