@@ -34,5 +34,63 @@ print(array[-1])
 for i in array:
     print(i)
 
+array2 = np.array([[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20]])
+print(array2)
+
+
+N = 5
+arr = [0 for i in range(N)]
+print(arr)
+
+#Creating 2D List using Naive Method
+rows, cols = (5, 5)
+arr = [[0]*cols]*rows
+print(arr)
+
+rows, cols = (5, 5)
+arr = [[0]*cols]*rows
+print(arr, "before")
+
+arr[0][0] = 1 # update only one element
+print(arr, "after")
+
+#Creating 1D List using List Comprehension
+rows, cols = (5, 5)
+arr = [[0 for i in range(cols)] for j in range(rows)]
+print(arr)
+
+#Creating 1D List using Empty List
+arr=[]
+rows, cols=5,5
+for i in range(rows):
+	col = []
+	for j in range(cols):
+		col.append(0)
+	arr.append(col)
+print(arr)
+
+#Initializing 2D Array
+# Python 3 program to demonstrate working
+# of method 1 and method 2.
+rows, cols = (5, 5)
+# method 2 1st approach
+arr = [[0]*cols]*rows
+# lets change the first element of the
+# first row to 1 and print the array
+arr[0][0] = 1
+
+for row in arr:
+	print(row)
+
+# method 2 2nd approach
+arr = [[0 for i in range(cols)] for j in range(rows)]
+
+# again in this new array lets change
+# the first element of the first row
+# to 1 and print the array
+arr[0][0] = 1
+for row in arr:
+	print(row)
+
 
    
