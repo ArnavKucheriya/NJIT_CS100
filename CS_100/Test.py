@@ -1,6 +1,6 @@
 import numpy as np
 
-msg = 'Hello World, this is a test Python Program file.'
+msg = 'hello world, this is a test Python Program file.'
 print(msg)
 
 a = 10
@@ -12,3 +12,8 @@ print(a)
 
 # Random Number Generator using Numpy (Pip installing numpy)
 print(np.random.randint(1,9))
+
+msg = 'hello world'
+print(msg.capitalize())
+
+print(msg.split('e'))
