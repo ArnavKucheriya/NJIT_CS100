@@ -31,16 +31,22 @@ print(array[5:])
 print(array[:5])
 print(array[-1])
 
+print()
+
 for i in array:
     print(i)
+
+print()
 
 array2 = np.array([[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20]])
 print(array2)
 
+print()
 
 N = 5
 arr = [0 for i in range(N)]
 print(arr)
+print()
 
 #Creating 2D List using Naive Method
 rows, cols = (5, 5)
@@ -53,11 +59,13 @@ print(arr, "before")
 
 arr[0][0] = 1 # update only one element
 print(arr, "after")
+print()
 
 #Creating 1D List using List Comprehension
 rows, cols = (5, 5)
 arr = [[0 for i in range(cols)] for j in range(rows)]
 print(arr)
+print()
 
 #Creating 1D List using Empty List
 arr=[]
@@ -68,6 +76,7 @@ for i in range(rows):
 		col.append(0)
 	arr.append(col)
 print(arr)
+print()
 
 #Initializing 2D Array
 # Python 3 program to demonstrate working
