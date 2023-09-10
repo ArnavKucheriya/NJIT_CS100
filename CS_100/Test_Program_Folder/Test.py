@@ -13,10 +13,12 @@ print(a)
 print('Rolling a Dice!')
 # Random Number Generator using Numpy (Pip installing numpy)
 print(np.random.randint(1,9))
+print()
 
 msg = 'hello world'
 print(msg.capitalize())
 print(msg.split('e'))
+print()
 
 # Adding a orray to the program
 array = np.array([1,2,3,4,5,6,7,8,9,10])
