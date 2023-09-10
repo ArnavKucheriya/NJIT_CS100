@@ -15,5 +15,4 @@ print(np.random.randint(1,9))
 
 msg = 'hello world'
 print(msg.capitalize())
-
 print(msg.split('e'))
