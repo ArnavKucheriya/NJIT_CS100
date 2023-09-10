@@ -30,3 +30,9 @@ print(array[1:5])
 print(array[5:])
 print(array[:5])
 print(array[-1])
+
+for i in array:
+    print(i)
+
+
+   
