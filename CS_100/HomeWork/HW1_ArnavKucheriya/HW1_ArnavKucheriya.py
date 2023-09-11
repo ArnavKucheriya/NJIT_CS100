@@ -19,6 +19,10 @@ string1 = "Hello World!"
 string2 = "This is assignment 1 - Homework 1"
 string3 = "I am a student at New Jersey Institute of Technology"
 
+#Testing Indexing of String Characters
+#length = 'length'
+#print(length[len(length)-1])
+
 '''
 ====================================================================================================
 #Exercise 6 [1.1]
