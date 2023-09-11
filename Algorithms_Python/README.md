@@ -42,3 +42,5 @@ Completed
   - Infix to Postfix
 - Modular exponentiation
 - Modular multiplicative inverse
+
+### Written and Tested by Arnav Kucheriya. ###
