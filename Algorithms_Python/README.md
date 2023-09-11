@@ -43,4 +43,4 @@ Completed
 - Modular exponentiation
 - Modular multiplicative inverse
 
-### Written and Tested by Arnav Kucheriya. ###
+### Written and Tested by<u>Arnav Kucheriya</u>. ###
