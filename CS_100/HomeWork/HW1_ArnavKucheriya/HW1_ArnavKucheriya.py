@@ -77,7 +77,7 @@ A. In Python, you need to use the * operator to multiply variables. So, xy is no
 ====================================================================================================
 #Exercise 6 [2.2]
 
-Q1. The volume of a sphere with radius r is 4/3 πr^3. What is the volume of a sphere with radius 5?
+Q1. The volume of a sphere with radius r is (4/3) πr^3. What is the volume of a sphere with radius 5?
 A1. To calculate the volume of a sphere with radius 5, use the formula:
 
 Volume = (4/3) * π * (5^3) = (4/3) * π * 125 ≈ 523.6 cubic units.
