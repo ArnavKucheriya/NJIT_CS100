@@ -9,15 +9,21 @@ int1 = 12
 int2 = 3
 int3 = 5
 
+print(int1, int2, int3)
+
 #Exercise 5c
 float1_Terminating = 12.0
 float2_Recurring = 3.333333
 float3_Pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286
 
+print(float1_Terminating, float2_Recurring, float3_Pi)
+
 #Exercise 5d
 string1 = "Hello World!"
 string2 = "This is assignment 1 - Homework 1"
 string3 = "I am a student at New Jersey Institute of Technology"
+
+print(string1, string2, string3)
 
 #Testing Indexing of String Characters
 #length = 'length'
