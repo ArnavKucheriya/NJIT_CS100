@@ -1,6 +1,8 @@
 Computer Science Algorithms in Python
 ======
 
+## Python 3.11.5 (64-bits)
+
 Completed
 ---
 - Karatsuba Multiplication
