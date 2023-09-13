@@ -1,5 +1,7 @@
 # CS 100 Roadmap to Computing #
 
+## Python 3.11.5 (64-bits)
+
 ## Brief Course Description: ##
 
 An introduction to programming and problem solving skills using Python, a very high level language. Topics include: 
