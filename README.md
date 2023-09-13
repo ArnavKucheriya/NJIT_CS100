@@ -1,6 +1,9 @@
 # NJIT_CS
-CS Course Classes at New Jersey Institute of Technology [NJIT]\
-Algorithms and Data Structures.
+CS Course Classes at New Jersey Institute of Technology \[NJIT]
+
+## Algorithms and Data Structures.
+- Python
+- Java
 
 ## Programming Languages Used
 - Python (Python 3.11.5 (64-bits))
