@@ -1,5 +1,5 @@
 # NJIT_CS
-CS Course Classes and Personal Projects; created, developed, and Explored.
+CS Course Classes and Personal Projects; created, Explored, and Developed.
 
 **New Jersey Institute of Technology \[NJIT]**
 
