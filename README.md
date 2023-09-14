@@ -1,5 +1,5 @@
 # NJIT_CS
-CS Course Classes at New Jersey Institute of Technology \[NJIT]
+CS Course Classes at **New Jersey Institute of Technology \[NJIT]**
 
 ## Programming Languages Used
 - Python (Python 3.11.5 (64-bits))
@@ -10,3 +10,5 @@ CS Course Classes at New Jersey Institute of Technology \[NJIT]
 ## Algorithms and Data Structures.
 - Python
 - Java
+
+### [NJIT B.S. Computer Science Degree Plan (Standard 4 Year)]([url](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/))
