@@ -12,5 +12,8 @@ CS Course Classes and Personal Projects; created, developed, and Explored.
 ## Algorithms and Data Structures.
 - Python
 - Java
+- C
+- C++
+- C#
 
 [NJIT B.S. Computer Science Degree Plan (Standard 4 Year)](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/)
