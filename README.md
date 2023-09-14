@@ -1,5 +1,6 @@
 # NJIT_CS
-CS Course Classes at **New Jersey Institute of Technology \[NJIT]**
+CS Course Classes and Personal Projects; created, developed, and Explored.
+**New Jersey Institute of Technology \[NJIT]**
 
 ## Programming Languages Used
 - Python (Python 3.11.5 (64-bits))
