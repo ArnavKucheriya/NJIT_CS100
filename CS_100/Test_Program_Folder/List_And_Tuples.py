@@ -163,3 +163,48 @@ print()
 List_New_Pets.remove(200)
 List_New_Pets.sort()
 print('List New Pets after sort:',List_New_Pets)
+print()
+
+# Sorting a List accoding to Decreasing Order
+List_New_Pets.sort(reverse=True)
+print('List New Pets after reverse sort:',List_New_Pets)
+print()
+
+# Creating a new Number List
+List_New_Nums = list_Nums
+print('List New Nums:',List_New_Nums)
+print()
+
+# Shallow Copy
+List_New_Nums = list_Nums[:]
+print('List New Nums Shallow Copy:',List_New_Nums)
+print()
+
+# Deep Copy
+List_New_Nums = list_Nums.copy()
+print('List New Nums Deep Copy:',List_New_Nums)
+print()
+
+# Taking the Mean of a list
+print(List_New_Nums)
+print('Mean of List Nums:',sum(list_Nums)/len(list_Nums))
+print()
+
+# Taking the Median of a list
+List_New_Nums.append(11)
+print(List_New_Nums)
+List_New_Nums.sort()
+print('Median of List Nums:',List_New_Nums[len(List_New_Nums)//2])
+List_New_Nums.pop()
+print()
+
+# Taking the Mode of a list
+List_New_Nums.append(10)
+List_New_Nums.append(10)
+List_New_Nums.append(10)
+List_New_Nums.append(10)
+List_New_Nums.append(10)
+List_New_Nums.append(10)
+print(List_New_Nums)
+print('Mode of List Nums:',max(set(List_New_Nums), key = List_New_Nums.count))
+print()
