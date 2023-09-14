@@ -1,5 +1,6 @@
 # NJIT_CS
 CS Course Classes and Personal Projects; created, developed, and Explored.
+
 **New Jersey Institute of Technology \[NJIT]**
 
 ## Programming Languages Used
