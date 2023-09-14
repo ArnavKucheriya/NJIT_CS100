@@ -124,6 +124,42 @@ print()
 # Appending to a list
 List_New_Pets.append('Pig')
 print('Appending List New Pets:', List_New_Pets)
+
 print()
 List_New_Pets.append(200)
 print('Appending List New Pets with Integer:', List_New_Pets)
+print()
+
+# Counting the number of times an element appears in a list
+List_New_Pets.append('Panda')
+print('Counting the Number of Times Pig appears:  ',List_New_Pets.count('Pig'))
+print('Counting the Number of Times Panda appears:',List_New_Pets.count('Panda'))
+print()
+
+# Indexing an element in a list
+print(List_New_Pets)
+print('Indexing Pig:',List_New_Pets.index('Pig'))
+print('Indexing Panda:',List_New_Pets.index('Panda')) #Returns the index of the element at first match.
+print()
+
+# Removing the last element from a list
+print(List_New_Pets)
+print('Last Element Added:',List_New_Pets.pop())
+print('List New Pets after pop:',List_New_Pets)
+print()
+
+# Removing a specific element from a list
+print(List_New_Pets)
+List_New_Pets.remove('Pig')
+print('List New Pets after remove:',List_New_Pets)
+print()
+
+# Reversing a list
+List_New_Pets.reverse()
+print('List New Pets after reverse:',List_New_Pets)
+print()
+
+# Sorting a List accoding to Increasing Order
+List_New_Pets.remove(200)
+List_New_Pets.sort()
+print('List New Pets after sort:',List_New_Pets)
