@@ -11,4 +11,4 @@ CS Course Classes at **New Jersey Institute of Technology \[NJIT]**
 - Python
 - Java
 
-### [NJIT B.S. Computer Science Degree Plan (Standard 4 Year)](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/)
+[NJIT B.S. Computer Science Degree Plan (Standard 4 Year)](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/)
