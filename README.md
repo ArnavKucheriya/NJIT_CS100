@@ -17,3 +17,10 @@ CS Course Classes and Personal Projects; created, Explored, and Developed.
 - C#
 
 [NJIT B.S. Computer Science Degree Plan (Standard 4 Year)](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/)
+
+
+ 	Kucheriya, Arnav
+B.S. Computer Science
+B.S. Computational Mathematics
+ak2945@njit.edu • +1 (713) 501-3114
+
