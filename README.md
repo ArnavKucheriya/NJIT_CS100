@@ -24,6 +24,6 @@ CS Course Classes and Personal Projects; created, Explored, and Developed.
 Kucheriya, Arnav  
 B.S. Computer Science  
 B.S. Computational Mathematics  
-ak2945@njit.edu • +1 (713) 501-3114
+ak2945@njit.edu •
 
 
