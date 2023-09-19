@@ -3,6 +3,7 @@ Arnav Kucheriya
 CS 100 015
 HW 01, September 11, 2023
 '''
+import math
 
 #Exercise 5b
 int1 = 12
@@ -24,7 +25,7 @@ string2 = "This is assignment 1 - Homework 1"
 string3 = "I am a student at New Jersey Institute of Technology"
 
 print(string1, string2, string3)
-
+print()
 #Testing Indexing of String Characters
 #length = 'length'
 #print(length[len(length)-1])
@@ -43,6 +44,8 @@ Q3. You can use a minus sign to make a negative number like -2. What happens if 
 A3. If you put a plus sign before a number, it doesn't change the number's value. So, +2 is the same as 2. In the case of 2++2, it will be interpreted as 2 + (+2), which is equal to 4.
 
 ====================================================================================================
+'''
+'''
 #Exercise 6 [1.2]
 
 Q1. How many seconds are there in 42 minutes 42 seconds?
@@ -59,7 +62,27 @@ Average Pace per Mile ≈ 42.7 minutes / 6.21 miles ≈ 6.88 minutes per mile.
 To find the average speed in miles per hour, divide the total distance (6.21 miles) by the total time (42.7 minutes) converted to hours:
 
 Average Speed ≈ 6.21 miles / (42.7 minutes / 60) hours ≈ 8.73 miles per hour.
+'''
 
+# Exercise 6 [1.2]
+# Q1. How many seconds are there in 42 minutes 42 seconds?
+seconds = (42 * 60) + 42
+print("There are",seconds,"seconds in 42 minutes 42 seconds.")
+print()
+
+# Q2. How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
+miles = 10 / 1.61
+print("There are",miles,"miles in 10 kilometers.")
+print()
+
+# Q3. If you run a 10-kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour?
+hours = (((42) + (42/60))/60)
+miles = 10 / 1.61
+speed = miles / hours
+print("Your average speed is",speed,"miles per hour.")
+print()
+
+'''
 ====================================================================================================
 #Exercise 6 [2.1]
 
@@ -81,6 +104,8 @@ A. Putting a period at the end of a statement will result in a syntax error. Per
 A. In Python, you need to use the * operator to multiply variables. So, xy is not valid. You should use x * y to multiply x and y.
 
 ====================================================================================================
+'''
+'''
 #Exercise 6 [2.2]
 
 Q1. The volume of a sphere with radius r is (4/3) πr^3. What is the volume of a sphere with radius 5?
@@ -106,3 +131,24 @@ So, you will arrive at your destination at 7:25 am.
 
 ====================================================================================================
 '''
+# Exercise 6 [2.2]
+# Q1. The volume of a sphere with radius r is (4/3) πr^3. What is the volume of a sphere with radius 5?
+radius = 5
+volume = (4/3) * math.pi * (radius**3)
+print("The volume of a sphere with radius",radius,"is",volume,"cubic units.")
+print()
+
+# Q2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs $3 for the first copy and 75 cents for each additional copy. What is the total cost of 60 copies?
+discount_price = 24.95 - (24.95 * 0.40)
+cost_of_60_copies = 60 * discount_price
+shipping_cost = 3 + (0.75 * 59)
+total_cost = cost_of_60_copies + shipping_cost
+print("The total cost of 60 copies is $",total_cost)
+print()
+
+# Q3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles
+start_time = 6 + (52/60)
+easy_pace = (8 + (15/60)) / 60
+total_time = start_time + (easy_pace * 4)
+print("You will arrive at your destination at",total_time,"AM.")
+print()
