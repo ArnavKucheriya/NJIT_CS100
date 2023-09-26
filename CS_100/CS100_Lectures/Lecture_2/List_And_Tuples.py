@@ -124,8 +124,8 @@ print()
 # Appending to a list
 List_New_Pets.append('Pig')
 print('Appending List New Pets:', List_New_Pets)
-
 print()
+
 List_New_Pets.append(200)
 print('Appending List New Pets with Integer:', List_New_Pets)
 print()
