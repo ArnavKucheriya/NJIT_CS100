@@ -16,7 +16,7 @@ class Dfs
         vertices = v; //to reuse v
         for(int i=0;i<v;i++)
         {
-            adjacencyList[i] = new LinkedList<Integer>(); //create a node for each vertex
+            adjacencyList[i] = new LinkedList<>(); //create a node for each vertex
         }
         visited = new boolean[vertices];
     }
