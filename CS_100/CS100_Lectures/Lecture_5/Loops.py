@@ -22,6 +22,11 @@ print()
 Creating an Infinite Loop
 
 # For loop in list with functions
+
+new_number = []
+for j in number:
+     new_number.append(j)
+
 for i in number:
     number.append(i + 3)
     print('i =', i)
