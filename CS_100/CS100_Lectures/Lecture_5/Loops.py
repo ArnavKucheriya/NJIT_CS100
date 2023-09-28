@@ -87,5 +87,10 @@ for i in range(1,10,2):
 print()
 
 # Ex e)
-for i in range(20,70,10):
-    print(i, end=' ')
+for i in range(11):
+    if i !=10:
+        print(str(i)+',', end=' ')
+    else:
+        print(i)
+print()
+
