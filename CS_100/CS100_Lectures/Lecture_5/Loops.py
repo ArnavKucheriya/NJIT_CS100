@@ -94,3 +94,14 @@ for i in range(11):
         print(i)
 print()
 
+'''
+Different methods of iteration in a sequence.
+
+for letter in s:
+    print(letter, end=' ')
+print()
+
+for i in range(len(s)):
+    print(s[i], end=' ')
+print()
+'''
