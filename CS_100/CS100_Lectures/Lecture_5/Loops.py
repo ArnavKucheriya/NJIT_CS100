@@ -158,8 +158,12 @@ print("Index of first occurence of letter:",index_Found)
 
 
 vowel_Count = 0
+consonent_Count = 0
 
 for letter in s:
     if letter in 'aeiouAEIOU':
         vowel_Count += 1
+    if letter not in 'aeiouAEIOU' and letter != ' ' and letter != '!':
+        consonent_Count += 1
 print("Number of vowels:",vowel_Count)
+print("Number of consonents:",consonent_Count)
