@@ -109,13 +109,18 @@ print()
 lst = [3,6,2,7,4,9,5]
 
 counter = 0
-max_Num = -1
+max_Num = lst[0]
+min_Num = lst[0]
 
 for num in lst:
     print(num, end=' ')
     counter += 1
-    if num > max_Num:
+    if num >= max_Num:
         max_Num = num
+    if num <= min_Num:
+        min_Num = num
+
 print()
 print("Counter:",counter)
 print("Max Number:",max_Num)
+print("Min Number:",min_Num)
