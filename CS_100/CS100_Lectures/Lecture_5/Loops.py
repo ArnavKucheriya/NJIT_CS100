@@ -144,3 +144,22 @@ if found_Letter == True:
     print("Found Letter")
 else:
     print("Letter not found")
+
+
+search_Letter = 'o'
+first = True
+index_Found = -1
+
+for i in range(len(s)):
+    if s[i] == search_Letter and first:
+        index_Found = i
+        first = False
+print("Index of first occurence of letter:",index_Found)
+
+
+vowel_Count = 0
+
+for letter in s:
+    if letter in 'aeiouAEIOU':
+        vowel_Count += 1
+print("Number of vowels:",vowel_Count)
