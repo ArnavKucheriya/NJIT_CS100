@@ -105,3 +105,17 @@ for i in range(len(s)):
     print(s[i], end=' ')
 print()
 '''
+
+lst = [3,6,2,7,4,9,5]
+
+counter = 0
+max_Num = -1
+
+for num in lst:
+    print(num, end=' ')
+    counter += 1
+    if num > max_Num:
+        max_Num = num
+print()
+print("Counter:",counter)
+print("Max Number:",max_Num)
