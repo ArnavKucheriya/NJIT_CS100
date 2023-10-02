@@ -109,12 +109,14 @@ print()
 lst = [3,6,2,7,4,9,5]
 
 counter = 0
+sum_Num = 0
 max_Num = lst[0]
 min_Num = lst[0]
 
 for num in lst:
     print(num, end=' ')
     counter += 1
+    sum_Num += num
     if num >= max_Num:
         max_Num = num
     if num <= min_Num:
@@ -122,5 +124,23 @@ for num in lst:
 
 print()
 print("Counter:",counter)
+print("Sum:",sum_Num)
 print("Max Number:",max_Num)
 print("Min Number:",min_Num)
+print()
+
+s = "Welcome to the world of Python"
+search_letter = 'P'
+found_Letter = False
+
+for letter in s:
+    if letter == search_letter:
+        found_Letter = True
+        break
+    else:
+        found_Letter = False
+
+if found_Letter == True:
+    print("Found Letter")
+else:
+    print("Letter not found")
