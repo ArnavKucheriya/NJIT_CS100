@@ -126,7 +126,8 @@ List_New_Pets.append('Pig')
 print('Appending List New Pets:', List_New_Pets)
 print()
 
-List_New_Pets.append(200)
+List_New_Pets.append('200')
+
 print('Appending List New Pets with Integer:', List_New_Pets)
 print()
 
@@ -160,7 +161,7 @@ print('List New Pets after reverse:',List_New_Pets)
 print()
 
 # Sorting a List accoding to Increasing Order
-List_New_Pets.remove(200)
+List_New_Pets.remove('200')
 List_New_Pets.sort()
 print('List New Pets after sort:',List_New_Pets)
 print()
