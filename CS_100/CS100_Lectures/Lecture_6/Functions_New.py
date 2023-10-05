@@ -48,10 +48,17 @@ def welcome_Function(name):
     return "Hello " + name + ". Welcome to the World of Python!"
 print(welcome_Function(input("Enter your name: ")))
 
-def count_Odd_Numbers(num):
+def count_Odd_Numbers(num_List):
     counter = 0
-    for i in num:
-        if i % 2 != 0:
+    for num in num_List:
+        if num % 2 != 0:
+            counter += 1  
+    return counter
+def count_Even_Numbers(num_List):
+    counter = 0
+    for num in num_List:
+        if num % 2 == 0:
             counter += 1  
     return counter
 print(count_Odd_Numbers([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+print(count_Even_Numbers([1, 2, 3, 4, 5, 6, 7, 8, 9]))
