@@ -25,8 +25,7 @@ out all of those numbers that are divisible by both 2 and 5
 # Printing numbers between 0 and 99 that are divisible by both 2 and 5
 for num in range(100):
     if num % 2 == 0 and num % 5 == 0:
-        print(num, end=' ')
-print()
+        print(num)
 
 '''
 Qustion 3:
@@ -43,4 +42,4 @@ vowels = "aeiouAEIOU"
 # Printing vowels in horton in the order they appear
 for char in horton:
     if char in vowels:
-        print(char, end=' ')
+        print(char)
