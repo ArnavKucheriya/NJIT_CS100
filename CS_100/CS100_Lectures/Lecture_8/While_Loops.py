@@ -53,4 +53,14 @@ def cities():
             # The return fumction acts as the breaker for the While loop. However it can only be used when the While loop exists inside of an function.
         lst.append(city)
 
-print(cities())
+# print(cities())
+
+table =[[2,3,0,6],[0,3,4,5],[4,5,6,0]]
+
+def all(t):
+    for row in t:
+        for num in row:
+            print(num, end=' ')
+        print()
+
+all(table)
