@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NQueen {
+public class N_Queen {
 //Program to place n-queens on n*n board such that no queen comes in the squares covered by a particular queen.
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
