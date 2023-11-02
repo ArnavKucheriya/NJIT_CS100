@@ -39,4 +39,4 @@ The list of topics to be covered includes the following:
 - Debugging and Testing 
 
 
-### Professor: Theodore Nicholson (Director of First Year Computer Science Education, Computer Science) ### 
+### Professor/Instructor: Theodore Nicholson (Director of First Year Computer Science Education, Computer Science) ### 
