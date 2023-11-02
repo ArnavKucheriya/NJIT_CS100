@@ -44,3 +44,37 @@ dict_Empty.update(dict_New)
 print(dict_Empty)
 print(dict_New)
 print()
+
+# Iterating over a dictionary
+dict_Name = {'Tree':'Oak', 'Flower':'Rose', 'Fruit':'Apple'}
+for key in dict_Name:
+    print(key)
+print()
+for key in dict_Name:
+    print(dict_Name[key])
+print()
+
+# Iterating over a dictionary with conditional statements
+# Iterating over Keys of dictionary
+for key in dict_Name.keys():
+    if 'e' in key:
+        print(key)
+print()
+
+# Iterating over Values of dictionary
+for value in dict_Name.values():
+    if 'e' in value:
+        print(value)
+print()
+
+# Iterating over Key:Value pairs of dictionary
+for key, value in dict_Name.items():
+    if 'e' in key:
+        print(key, value)
+print()
+
+# Adding 100,000 values to a dictionary
+dict_100K = {}
+for i in range(100000):
+    dict_100K[i] = i
+# print(dict_100K)
