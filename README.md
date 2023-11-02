@@ -1,10 +1,13 @@
 # NJIT_CS
-CS Course Classes and Personal Projects; created, Explored, and Developed.
+CS 100 Course Class; created, Explored, and Developed.
 
 **New Jersey Institute of Technology \[NJIT]**
 
 ## Programming Languages Used
 - Python (Python 3.11.5 (64-bits))
+
+## Editor Used
+- Visual Studio Code (64-bits)
 
 [NJIT B.S. Computer Science Degree Plan (Standard 4 Year)](https://catalog.njit.edu/undergraduate/computing-sciences/computer-science/bs/)  
 
