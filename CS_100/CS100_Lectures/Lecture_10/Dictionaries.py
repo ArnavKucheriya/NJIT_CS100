@@ -78,3 +78,21 @@ dict_100K = {}
 for i in range(100000):
     dict_100K[i] = i
 # print(dict_100K)
+
+def frequency(itemList):
+    '''Compute the frequency of each item in
+      itemList. Return the result as a dictionary 
+      in which each distinct item in itemList is a
+      key and the item's frequency (count) is the 
+      associated value.'''
+    counters = {}
+    for item in itemList:
+          # if the item hasn't been seen before
+        if item not in counters:
+              # add the item to the dictionary 
+              # and set its count to 1
+              counters[item] = 1
+          # otherwise, increment the count of item
+    else:
+        counters[item] += 1
+    return counters
