@@ -62,6 +62,7 @@ def file_stats(in_file):
 # Example usage
 file_stats('created_equal.txt')
 
+import os
 import re
 
 def repeat_words(in_file, out_file):
@@ -80,6 +81,8 @@ def repeat_words(in_file, out_file):
         target_file.write(' '.join(repeated_words))
 
 # Example usage
-inF = 'catInTheHat.txt'
-outF = 'catRepWords.txt'
+inF = "C:\\Users\\Arnav\\OneDrive\\Desktop\\GitHub\\NJIT_CS\\CS_100\\CS100_Lectures\\Lecture_09\\HW_09\\created_equal.txt"
+outF = 'C:/Users/Arnav/OneDrive/Desktop/GitHub/NJIT_CS/CS_100/CS100_Lectures/Lecture_09/HW_09/catRepWords.txt'
 repeat_words(inF, outF)
+
+print(os.getcwd())
