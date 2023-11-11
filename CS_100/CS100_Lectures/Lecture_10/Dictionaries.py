@@ -97,5 +97,5 @@ def frequency(itemList):
               counters[item] = 1
           # otherwise, increment the count of item
     else:
-        counters[itemgetter] += 1
+        counters[item] += 1
     return counters
