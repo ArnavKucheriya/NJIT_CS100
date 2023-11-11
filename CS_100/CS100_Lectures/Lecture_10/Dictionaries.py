@@ -1,6 +1,7 @@
 # Dictionaries are Associative Arrays (Data Types   Key:Value)
 # Dictionaries are defined using curly braces '{}'
 from operator import itemgetter
+from typing import ItemsView
 
 
 definitions = {'modest':'unassuming', 'eat':'chew and swallow'}
@@ -97,5 +98,5 @@ def frequency(itemList):
               counters[item] = 1
           # otherwise, increment the count of item
     else:
-        counters[item] += 1
+        counters[ItemsView] += 1
     return counters
