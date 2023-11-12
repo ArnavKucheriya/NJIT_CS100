@@ -7,6 +7,12 @@ While loops:
     > Loop a fixed number of times
         for i in range(num):
             # do something
+
+    > Loop until a condition is met
+        while condition:
+            # do something
+            # update condition
+            # break; To exit the Loop
 '''
 
 def get_Negetive_Number():
