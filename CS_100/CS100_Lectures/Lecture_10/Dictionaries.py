@@ -71,6 +71,11 @@ for value in dict_Name.values():
         print(value)
 print()
 
+for value in dict_Name.values():
+    if 'e' in value:
+        print(value)
+        
+
 # Iterating over Key:Value pairs of dictionary
 for key, value in dict_Name.items():
     if 'e' in key:
